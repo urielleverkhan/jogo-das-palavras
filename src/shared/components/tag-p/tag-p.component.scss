@@ -1,0 +1,23 @@
+.tag-p-container{
+    max-width: 300px;
+    max-height: 600px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tag-p-container>img{
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 20px 10px;
+    padding: 2px;
+    object-fit: cover;
+}  
+.tag-p-container>h4{
+    font-size: 18px;
+    color: purple;
+} 

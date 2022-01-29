@@ -1,0 +1,5 @@
+<app-tag [texto]="palavraAtual()" #tag (palavraEscrita)="palavraRecebida($event)" [image]="imagenAtual()"></app-tag>
+<section class="setas">
+    <div class="seta" ><<<</div>
+    <div class="seta" (click)="setaAvancar()">>>></div>
+</section>

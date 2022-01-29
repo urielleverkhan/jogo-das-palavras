@@ -1,0 +1,7 @@
+<section class="tag-container">
+    <img [src]="image"/>
+    <h4>{{texto}}</h4>
+    <form [formGroup]="form">
+        <input class={{situacaoPalavra()}} (keyup)="avaliarPalavraDigitada()" type="text" formControlName="palavra" [maxlength]="this.texto.split('').length"/>
+    </form>
+</section>

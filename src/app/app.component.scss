@@ -1,0 +1,43 @@
+.container-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.container-app>header{
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    width: 100%;
+    border-bottom: 2px solid purple;
+}
+.container-app>header>h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+.container-app>main{
+    background-color: rgb(255, 245, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container-app>footer{
+    display: flex;
+    bottom: auto;
+    background-color: palevioletred;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container-app>footer>h4{
+    font-size: 15px;
+    color: #ffff;
+    text-align: center;
+}
